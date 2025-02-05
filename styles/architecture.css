@@ -183,6 +183,59 @@ footer{
     gap: 20px;
     padding-left: 60px;
 }
+/* footer */
+footer{
+    background-color: rgba(255, 244, 231, 1);
+    text-align: center;
+    margin: 130px auto 216px;
+}
+footer p{
+    font-size: 1.2rem;
+    padding: 39px 410px;
+
+}
+
+/* love and enjoy */
+.love-enjoy-left{
+    max-width: 586px;
+    margin-right: 54px;
+}
+.love-enjoy-title{
+    font-size: 2.3rem;
+    font-weight: bold;
+    border-left: 5px solid #FF900E;
+    max-width: 468px;
+    padding-left: 21px;
+}
+.love-enjoy-right{
+    max-width: 708px;
+    margin-left: 146px;
+}
+
+.love-enjoy-card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.love-enjoy-card{
+    
+    padding: 30px;
+    margin: 10px 0px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+#experience-badge{
+    padding: 45px 42px;
+    margin-top: -77px;
+    margin-left: -99px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.experience-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
 /* responsive for small device */
 @media screen and (max-width:576px) {
     .nav-container,
@@ -218,7 +271,21 @@ footer{
 
 
     }
+    footer p{
+        padding: 10px;
+    }
+    .love-enjoy{
+        flex-direction: column;
+    }
+    #architect-image{
+        width: 100%;
+    }
+    #experience-year{
+        font-size: 0;
+    }
+
 }
+
 /* responsive for medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams{
@@ -247,5 +314,11 @@ footer{
         margin: 0 auto;
 
 
+    }
+    footer p{
+        padding: 10px;
+    }
+    .love-enjoy{
+        flex-direction: column;
     }
 }
