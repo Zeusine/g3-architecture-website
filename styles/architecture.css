@@ -172,6 +172,14 @@ main > section{
     .features-container{
         margin-left: 10px;
     }
+    .some-fact-main-container{
+        
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .some-facts-img-container{
+        margin: 0 auto;
+    }
 }
 /* responsive for medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -180,5 +188,17 @@ main > section{
     }
     .features-container{
         margin: 0px;
+    }
+    .some-fact-main-container{
+        
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .some-facts-img-container {
+        margin: 0 auto;
+    }
+    .some-facts-title, .some-facts-description{
+        text-align: center;
+        max-width:none;
     }
 }
